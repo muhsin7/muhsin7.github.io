@@ -3,3 +3,7 @@ Button {
     height: 2em;
     color: black;
 }
+
+a {
+    text-decoration: none;
+}

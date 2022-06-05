@@ -2,24 +2,32 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 import Container from '@mui/material/Container';
 import HeaderButton from './headerbutton/headerbutton';
+import Grid from "@mui/material/Grid";
 import { Button } from '@mui/material';
+import './siteheaderCSS.css';
 
     // {/* <Placeholder/> */}
 
-function App() {
-  const { siSimpleicons } = require('simple-icons/icons');
+function Header() {
+  const { siGithub, siLinkedin, siBookstack } = require('simple-icons/icons');
 
   return (
-    <React.Fragment>
-      <Container fixed maxWidth='md'>
-      <h1>Muhsin Mohamed</h1>
-      <h3>Computer Science student at King's College London</h3>
-      <HeaderButton icon={siSimpleicons.slug} name="Github"/>
-      <HeaderButton icon={siSimpleicons.slug} name="Github"/>
-      <HeaderButton icon={siSimpleicons.slug} name="Resume"/>
+      <Container maxWidth='md' className="header">
+      <Grid container spacing={2}>
+      <Grid item xs={12}>
+          <h1>Muhsin Mohamed</h1>
+          <h3>Computer Science student at King's College London</h3>  
+        </Grid>
+        <Grid item>
+          <Grid container columnSpacing={2}>
+            <HeaderButton icon={siGithub.slug} name="GitHub" color="purple" link="https://github.com/muhsin7"/>
+            <HeaderButton icon={siLinkedin.slug} name="LinkedIn" color="blue" link="https://www.linkedin.com/in/muhsin-mohamed/"/>
+            <HeaderButton icon={siBookstack.slug} name="Resume" color="grey" link="/RESUME.pdf"/>
+          </Grid>
+        </Grid>
+      </Grid>
       </Container>
-    </React.Fragment>
   );
 }
 
-export default App;
+export default Header;
