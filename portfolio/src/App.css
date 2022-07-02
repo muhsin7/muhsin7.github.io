@@ -52,9 +52,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+    color: white;
 }
 
 html, body, #root, #root>div {
-  height: 100%
+  height: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: rgb(18, 18, 18);
 }

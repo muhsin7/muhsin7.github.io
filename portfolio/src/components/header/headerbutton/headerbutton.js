@@ -18,7 +18,7 @@ class HeaderButton extends React.Component {
         return <React.Fragment>
             <Grid item>
                     <a href={this.props.link} target="_blank">
-                        <Button variant="outlined" style={{color: this.props.color, borderColor: this.props.color}}>
+                        <Button style={{color: "white", backgroundColor: this.props.color}} variant="contained">
                             {/* <SvgIcon color="primary" style={{ colorPrimary: "#000000" }} children={ icon.icon.path }></SvgIcon> */}
                             <img style={{display: "flex", padding: 5}} height="20" src={"https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/" + this.props.icon + ".svg"} />
                             <div>{this.props.name}</div>
