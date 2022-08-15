@@ -49,10 +49,10 @@
 
 
 /* # In mycssfiles.css */
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-    font-family: 'Josefin Sans', 'Helvetica', sans-serif;
+    font-family: 'Poppins', 'Helvetica', sans-serif;
     color: white;
 }
 
@@ -60,5 +60,5 @@ html, body, #root, #root>div {
   height: 100%;
   /* display: flex; */
   flex-direction: column;
-  background-color: rgb(18, 18, 18);
+  background-color: #0D0221;
 }

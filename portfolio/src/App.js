@@ -1,19 +1,24 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
+
 import SiteHeader from './components/header/siteheader';
+import SiteFooter from './components/footer/sitefooter';
+
 import './App.css';
-import { Card, CardContent, CardHeader, Chip, createTheme, ThemeProvider } from '@mui/material';
-import Projects from './components/projects/projects';
-import Education from './components/education/education';
+import { createTheme, ThemeProvider, CssBaseline, GlobalStyles  } from '@mui/material';
+import CustomPalette from './styles/palette';
+
 
     // {/* <Placeholder/> */}
 
 function App() {
-  const theme = createTheme({
-    background: '#212121',
+  const theme = createTheme ({
+    background: CustomPalette.background,
     text: '#fafafa',
+    typography: {
+      fontFamily: [
+        "'Poppins'", "'Helvetica'", "sans-serif"
+      ].join(",")
+    }
   })
 
   return (
@@ -23,9 +28,9 @@ function App() {
           <SiteHeader />
           <br />
           {/* <Projects /> */}
-
+          <SiteFooter/>
         
-          <Education />
+          {/* <Education /> */}
         {/* </div> */}
       </ThemeProvider>
     </React.Fragment>

@@ -1,9 +1,9 @@
-Button {
-    padding: 7.5em;
-    height: 3em;
-    color: black;
+.Button {
+  padding: 7.5em;
+  height: 3em;
+  color: black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
