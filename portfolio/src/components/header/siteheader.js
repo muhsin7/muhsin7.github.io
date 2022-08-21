@@ -40,7 +40,7 @@ function Header() {
               icon={CgFileDocument}
               name="Resume"
               color="#26408B"
-              link="/RESUME.pdf"
+              link="/resume"
             />
           </Grid>
         </Grid>

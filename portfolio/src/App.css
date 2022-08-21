@@ -37,28 +37,29 @@
   }
 } */
 
-
 /* #app {
   display: flex;
   flex-direction: column;
   height: 100%;
 } */
 
- /* In entry file */
+/* In entry file */
 /* @import '/assets/css/mycssfile.css'; */
 
-
 /* # In mycssfiles.css */
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
-    font-family: 'Poppins', 'Helvetica', sans-serif;
-    color: white;
+  font-family: "Poppins", "Helvetica", sans-serif;
+  color: white;
 }
 
-html, body, #root, #root>div {
-  height: 100%;
+html,
+body,
+#root,
+.app {
+  min-height: 100%;
   /* display: flex; */
-  flex-direction: column;
-  background-color: #0D0221;
+  /* flex-direction: column; */
+  background-color: #0d0221;
 }

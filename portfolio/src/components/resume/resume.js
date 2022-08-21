@@ -57,7 +57,7 @@ function Resume() {
                   icon={AiOutlineArrowsAlt}
                   name="Full screen"
                   color="#0F084B"
-                  link="https://www.linkedin.com/in/muhsin-mohamed/"
+                  link="RESUME.pdf"
                 />
               </Grid>
             </Box>
@@ -66,8 +66,6 @@ function Resume() {
           <embed src="/RESUME.pdf" height="550" width="400"></embed>
         </Grid>
       </Grid>
-
-      <Footer></Footer>
     </React.Fragment>
   );
 }

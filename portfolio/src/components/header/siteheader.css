@@ -1,9 +1,22 @@
 .header {
-    align-items: center;
-    justify-items: center   ;
-    /* height: 100%; */
-    display: flex;
-    flex-direction: column;
-    vertical-align: middle;
-    padding: 28vh 0vh 0vh 0vh;
+  align-items: center;
+  justify-items: center;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  padding: 28vh 0vh 0vh 0vh;
+  height: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: #0d0221;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  background-color: #0d0221;
 }
