@@ -13,7 +13,7 @@ export default function Home() {
         <div className='my-auto lg:mx-36'>
           <div className='flex flex-col gap-4'>
             <p className='text-2xl'>Hi I'm</p>
-            <p className='text-7xl'>Muhsin Mohamed</p>
+            <p className='text-7xl font-sans'>Muhsin Mohamed</p>
             <p className='text-3xl'>Computer Science student @ King's College London</p>
           </div>
           <div className='py-6 flex flex-row gap-4'>

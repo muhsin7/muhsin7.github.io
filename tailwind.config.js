@@ -20,9 +20,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        blue: colors.blue,
-        purple: colors.purple,
-        rose: colors.rose,
+        ...colors,
+        // purple: '#3f3cbb',
     },
     },
   },
